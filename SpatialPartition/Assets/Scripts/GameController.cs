@@ -153,5 +153,9 @@ namespace SpatialPartitionPattern
 
             return closestEnemy;
         }
+        public void OnButtonClick()
+        {
+            SpaticalParitionToggle = !SpaticalParitionToggle;
+        }
     }
 }
